@@ -1,4 +1,4 @@
-# ESP32 Environmental Monitor 🌡️💧
+# ESP32 Environmental Monitor
 
 An IoT environmental monitoring system built on ESP32 and MicroPython that reads temperature and humidity using a DHT11 sensor, logs data to ThingSpeak for live graphing, and sends threshold-based alerts via a Telegram bot.
 
