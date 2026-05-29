@@ -127,11 +127,11 @@ ESP32 (MicroPython)
 
 ## Future Improvements
 
-I am planning to do an Edge tinyml anomaly detector using the ESP32 
-
-> So this project was basically built for  **data collection** for a TinyML ESP32 project.
+ I was planning to do an Edge Tinyml anomaly detector Using the ESP32.
+ 
+> So this project was initially built as a building block for that to collect the data set of temperature and humidity using Thingspeak. 
 > Instead of hardcoded thresholds (`if temp > 35`), a tiny ML model will learn what *normal* looks like
-> and flag anomalies automatically — no cloud inference
+  and flag anomalies automatically — no cloud inference
 
 ---
 
