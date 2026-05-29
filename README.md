@@ -34,6 +34,15 @@ An IoT environmental monitoring system built on ESP32 and MicroPython that reads
 
 > LED blink feedback uses GPIO 12
 
+## Cicuit 
+
+<table>
+  <tr>
+    <td align="center"><img src="images/Weather-monitor_ckt.jpg" alt="Cicuit" height="200"/></td>
+  </tr>
+</table>
+
+
 ---
 
 ## Software & Libraries
@@ -85,6 +94,12 @@ Go to your ThingSpeak channel → **Private View** or **Public View** to see liv
 ### 7. Monitor the bot after increasing the temperature above threshold:
 You will get a message saying "Temperature_Exceeded_the_Limit: threshold_value C"
 
+<table>
+  <tr>
+    <td align="center"><img src="images/tele_bot_msg.png" alt="telegram Message" height="200"/></td>
+  </tr>
+</table>
+
 ---
 
 ## How It Works
@@ -105,13 +120,22 @@ ESP32 (MicroPython)
 5. If temperature exceeds the threshold, a separate GET request fires the Telegram message
 6. The onboard LED blinks once to confirm a successful upload
 
-> **Note:** The 30-second interval respects ThingSpeak's free plan limit of one update per 15 seconds. Communication is via direct HTTP.
+> **Note:** The 60-second interval respects ThingSpeak's free plan limit of one update per 15 seconds. Communication is via direct HTTP.
+
+## Thingspeak Data
+
+<table>
+  <tr>
+    <td align="center"><img src="images/field1_temp" alt="Temperature Plot" height="200"/></td>
+    <td align="center"><img src="images/fiels2_humi.jpg" alt="Humidity plot" height="200"/></td>
+  </tr>
+</table>
 
 ---
 
 ## Telegram Bot Setup
 
-1. Message [@BotFather](https://t.me/BotFather) on Telegram
+1. Message @BotFather on Telegram
 2. Send `/newbot` and follow the prompts to get your **Bot Token**
 3. Start a chat with your new bot, then visit:
    `https://api.telegram.org/bot<TOKEN>/getUpdates`
@@ -120,8 +144,6 @@ ESP32 (MicroPython)
 ---
 
 ## Future Improvements
-
-### Next Project → Edge AI / TinyML Anomaly Detection 🤖
 
 I am planning to do an Edge tinyml anomaly detector using the ESP32 
 
