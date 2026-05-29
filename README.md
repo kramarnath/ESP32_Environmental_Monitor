@@ -109,7 +109,7 @@ ESP32 (MicroPython)
 <table>
   <tr>
     <td align="center"><img src="images/field1_temp.png" alt="Temperature Plot" height="200"/></td>
-    <td align="center"><img src="images/fiels2_humi.png" alt="Humidity plot" height="200"/></td>
+    <td align="center"><img src="images/field2_humi.png" alt="Humidity plot" height="200"/></td>
   </tr>
 </table>
 
