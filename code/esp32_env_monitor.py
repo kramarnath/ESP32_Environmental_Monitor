@@ -10,7 +10,7 @@ PASSWORD = "your_password"
 
 # ThingSpeak configuration
 API_KEY = "your_thingspeak_api_key"
-URL = "thingspeak_url"
+URL = "https://api.thingspeak.com/update"
 
 # Telegram configuration
 TOKEN = "your_bot_token"
@@ -71,4 +71,4 @@ while True:
         except Exception as e:
             print("Error:", e)
     
-    time.sleep(30)  
+    time.sleep(60)  
