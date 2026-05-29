@@ -55,24 +55,6 @@ An IoT environmental monitoring system built on ESP32 and MicroPython that reads
 
 ---
 
-## Project Structure
-
-```
-ESP32-Environmental-Monitor/
-├── firmware/                      # Entry point — runs on boot
-│   ├── esp32_env_monitor.py       # Sensor read + ThingSpeak HTTP upload         
-│   └── config.py                  # WiFi credentials, API keys, thresholds
-├── docs/                          # Threshold alert via Telegram Bot API
-│   ├── circuit_diagram.png
-│   ├── thingspeak_screenshot.png
-│   └── telegram_alert_screenshot.png
-├── .gitignore
-├── LICENSE
-└── README.md
-```
-
----
-
 ## Setup & Configuration
 
 ### 1. Flash MicroPython on ESP32
