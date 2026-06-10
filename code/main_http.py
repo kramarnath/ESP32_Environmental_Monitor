@@ -1,3 +1,6 @@
+# main_http.py
+# Sends data to ThingSpeak via HTTP GET
+
 import machine
 import dht
 import network
