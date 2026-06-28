@@ -150,6 +150,37 @@ ESP32 (MicroPython)
 
 ---
 
+## PCB Design
+
+A custom 2-layer ESP32 breakout PCB was designed in KiCad as the hardware foundation 
+for this project, replacing the breadboard prototype.
+
+**Key features of the PCB:**
+- ESP32-WROOM-32E as the main controller
+- CH340G USB-to-UART for direct USB programming
+- AMS1117-3.3 voltage regulator (5V USB → 3.3V)
+- DHT11 sensor footprint onboard
+- EN and BOOT buttons for flashing
+- Decoupling capacitors on power rails
+
+### PCB Layout
+
+<table>
+  <tr>
+    <td align="center"><img src="images/pcb/pcb_layout.png" alt="PCB Layout" height="200"/></td>
+    <td align="center"><img src="images/pcb/pcb_3d_front.png" alt="3D View" height="200"/></td>
+  </tr>
+</table>
+
+### Schematic
+
+<table>
+  <tr>
+    <td align="center"><img src="images/pcb/schematic.png" alt="Schematic" height="200"/></td>
+  </tr>
+</table>
+
+
 ## Future Improvements
 
 I was planning to add an ESP8266 receiver node that subscribes to the same MQTT topic and triggers a buzzer alert locally when temperature crosses the threshold — this is exactly the kind of multi-device real-time use case that makes MQTT the right choice over HTTP.
