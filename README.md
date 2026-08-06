@@ -191,7 +191,7 @@ for this project, replacing the breadboard prototype.
 
 ## Future Improvements
 
-I was planning to add an ESP8266 receiver node that subscribes to the same MQTT topic and triggers a buzzer alert locally when temperature crosses the threshold — this is exactly the kind of multi-device real-time use case that makes MQTT the right choice over HTTP.
+I am planning to add an ESP8266 receiver node that subscribes to the same MQTT topic and triggers a buzzer alert locally when temperature crosses the threshold — this is exactly the kind of multi-device real-time use case that makes MQTT the right choice over HTTP.
 
 Beyond that, this project was built as a data collection foundation for an Edge TinyML anomaly detector running on the ESP32 itself.
 
