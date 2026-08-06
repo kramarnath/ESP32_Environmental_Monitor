@@ -163,23 +163,31 @@ for this project, replacing the breadboard prototype.
 - EN and BOOT buttons for flashing
 - Decoupling capacitors on power rails
 
-### PCB Layout
-
-<table>
-  <tr>
-    <td align="center"><img src="images/pcb/pcb_layout.png" alt="PCB Layout" height="200"/></td>
-    <td align="center"><img src="images/pcb/pcb_3d_front.png" alt="3D View" height="200"/></td>
-  </tr>
-</table>
-
 ### Schematic
 
 <table>
   <tr>
-    <td align="center"><img src="images/pcb/schematic.png" alt="Schematic" height="200"/></td>
+    <td align="center"><img src="images/pcb/schematic.jpg" alt="Schematic" height="200"/></td>
   </tr>
 </table>
 
+### PCB Layout
+
+<table>
+  <tr>
+    <td align="center"><img src="images/pcb/pcb_fcu.png" alt="PCB Layout" height="200"/></td>
+    <td align="center"><img src="images/pcb/pcb_bcu.png" alt="PCB Layout" height="200"/></td>
+  </tr>
+</table>
+
+### 3D Model
+
+<table>
+  <tr>
+   <td align="center"><img src="images/pcb/3D_front.png" alt="3D View" height="200"/></td>
+    <td align="center"><img src="images/pcb/3D_back.png" alt="3D View" height="200"/></td>
+  </tr>
+</table>
 
 ## Future Improvements
 
