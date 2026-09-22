@@ -167,7 +167,7 @@ for this project, replacing the breadboard prototype.
 
 <table>
   <tr>
-    <td align="center"><img src="images/pcb/schematic.PNG" alt="Schematic" height="200"/></td>
+    <td align="center"><img src="images/pcb/schematic.png" alt="Schematic" height="200"/></td>
   </tr>
 </table>
 
