@@ -10,7 +10,7 @@ An IoT environmental monitoring system built on ESP32 and MicroPython that reads
 - **Cloud logging** — pushes data to ThingSpeak (Field 1: Temp, Field 2: Humidity) over MQTT
 - **Live dashboard** — visualise sensor data on ThingSpeak's built-in web graphs
 - **Telegram alerts** — sends an instant message when temperature exceeds 35°C
-- **LED feedback** — onboard LED (GPIO 12) blinks on every successful ThingSpeak publish
+- **LED feedback** — LED (GPIO 13) blinks on every successful ThingSpeak publish
 - **WiFi auto-connect** — reconnects automatically on startup
 
 ---
@@ -32,7 +32,7 @@ An IoT environmental monitoring system built on ESP32 and MicroPython that reads
 | GND | GND |
 | DATA | GPIO 4 |
 
-> LED blink feedback uses GPIO 12
+> LED blink feedback uses GPIO 13 with a 220 or 330 ohm resistor
 
 ## Circuit
 
