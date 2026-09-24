@@ -31,7 +31,7 @@ CHAT_ID = "your_chat_id"
 sensor = dht.DHT11(machine.Pin(4))
 
 # LED at PIN 12
-led = machine.Pin(12, machine.Pin.OUT)
+led = machine.Pin(13, machine.Pin.OUT)
 
 # Temperature threshold
 threshold_temp = 35  # in celsius
